@@ -1,3 +1,5 @@
+//Program: Print class based on result percentage
+
 fun addClassToResult(result:Double):String{
     val classBasedOnResult = when (result) {
         in 85.00..100.00 -> "Distinction Class"
