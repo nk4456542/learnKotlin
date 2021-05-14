@@ -6,7 +6,7 @@ fun main(args:Array<String>){
     var sum:Int = 0;
     for(num in nums) {
         print("$num ");
-        if (num < 0) {
+        if (num <= 0) {
             continue
         }
         sum += num;
