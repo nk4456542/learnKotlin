@@ -4,4 +4,5 @@ fun main(args:Array<String>)
     var celsius = readLine()!!.toFloat()
     var farenheit = (celsius * 9/5) + 32
     println("$celsius in Fahrenheit is $farenheit")
+
 }
