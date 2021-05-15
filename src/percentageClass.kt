@@ -3,8 +3,8 @@
 fun addClassToResult(result:Double):String{
     val classBasedOnResult = when (result) {
         in 85.00..100.00 -> "Distinction Class"
-        in 65.00..84.00 -> "First Class"
-        in 35.00..64.00 -> "Second Class"
+        in 65.00..84.99 -> "First Class"
+        in 35.00..64.99 -> "Second Class"
         else -> "Fail Class"
     }
     return classBasedOnResult;
