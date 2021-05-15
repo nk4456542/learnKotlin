@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     Eda.actualAge = 27
     Eda.age = 27
     println("Eda: Actual age = ${Eda.actualAge}")
-    println("Eda: Prentended age = ${Eda.age}")
+    println("Eda: Pretended age = ${Eda.age}")
 }
 
 class Girl {
